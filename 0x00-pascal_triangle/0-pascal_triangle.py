@@ -4,10 +4,6 @@
 
 def pascal_triangle(n):
     # A function that returns a list of integers
- #   if n <= 0:
-#        return []
-
-    # Initializes pascal's triangle with the first row
     lists = []
     if n == 0:
         return lists
